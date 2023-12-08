@@ -1,7 +1,7 @@
 
 PTCSC.BuildingBlockVerifier is a utility tool to verify that a building block is compliant.
 
-The block includes a mashup where a Thingworx project xml file can be uploaded and will check if the project is a compliant building block.
+The block includes a mashup where a Thingworx project xml file can be uploaded and will check if the project is a compliant building block and displays all findings. 
 
 The block verifies for:
 
