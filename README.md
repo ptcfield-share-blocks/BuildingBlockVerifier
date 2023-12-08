@@ -1,13 +1,22 @@
 
 PTCSC.BuildingBlockVerifier is a utility tool to verify that a building block is compliant.
+
 The block includes a mashup where a Thingworx project xml file can be uploaded and will check if the project is a compliant building block.
+
 The block verifies for:
+
 • If the XML is importable
+
 • Identify missing core block entities Management_TS, Management_TT, Manager, EntryPoint_TT, EntryPoint
+
 • Identify incorrect names for properties (should start with lower case)
+
 • Identify incorrect names for services (should start with upper case)
+
 • Identify incorrect inheritance on the block entities
+
 • Identify incorrect suffix in entity names based on their type
+
 • Project name in the names of all entities that are part of the building block
 
 # Author
